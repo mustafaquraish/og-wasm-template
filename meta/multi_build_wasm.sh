@@ -16,7 +16,7 @@ cp assets/multi-canvas.html build/
 ocen main.oc -n -c build/main.c
 
 # NOTE: This is just to make the second file different from the first one.
-cat main.oc | sed 's/BLACK/RED/g' > build/main2.oc
+cat main.oc | sed 's/BLACK/GREEN/g' > build/main2.oc
 ocen build/main2.oc -n -c build/main2.c
 rm build/main2.oc
 
